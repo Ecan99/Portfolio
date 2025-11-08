@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mpho Ecan Mokumo - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <i class="fa-solid fa-code"></i>
+                <img src="images/logo.png" alt="Mpho Ecan Logo" class="logo-image">
                 <span>Mpho Ecan</span>
             </div>
             <div class="nav-toggle" id="navToggle">
@@ -21,11 +22,13 @@
                 <span></span>
                 <span></span>
             </div>
-            <ul class="nav-menu" id="navMenu">
+                 <ul class="nav-menu" id="navMenu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#services" class="nav-link">Services</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
             </ul>
         </div>
     </nav>
@@ -186,6 +189,115 @@
         </div>
     </section>
 
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="underline"></div>
+                <p>Here are some of the projects I've worked on during my studies and personal development</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/r36-fitness.jpg" alt="R36 Health & Fitness Website">
+                        <div class="project-overlay">
+                            <i class="fa-solid fa-dumbbell"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>R36 Health & Fitness Website</h3>
+                        <span class="project-year">2025 | Freelance</span>
+                        <p class="project-description">
+                            Designed and developed a smooth, mobile-friendly multi-page website for a local gym. 
+                            Created engaging layouts including Home, About, Services, and Contact pages with WhatsApp integration, 
+                            clear CTAs, and downloadable pricing section.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <a href="https://ecan99.github.io/Fitness-2nd/" class="project-link" target="_blank">
+                            <i class="fa-solid fa-external-link-alt"></i> View Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/portfolio-project.jpg" alt="Personal Portfolio Website">
+                        <div class="project-overlay">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <span class="project-year">2025 | Personal Project</span>
+                        <p class="project-description">
+                            Built and designed this modern, fully responsive portfolio to showcase web development projects and skills. 
+                            Highlighted academic and independent projects with smooth animations and optimized for all devices.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>GitHub Pages</span>
+                        </div>
+                        <a href="https://ecan99.github.io/Portfolio/" class="project-link" target="_blank">
+                            <i class="fa-solid fa-external-link-alt"></i> View Live Site
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/android-project.jpg" alt="Android App Project">
+                        <div class="project-overlay">
+                            <i class="fa-brands fa-android"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Android Mobile Application</h3>
+                        <span class="project-year">2023 | Academic Project</span>
+                        <p class="project-description">
+                            Developed a fully functional Android application using Java as part of final year project at Boston City Campus. 
+                            Achieved 87% final grade with features including user authentication, data storage, and intuitive UI.
+                        </p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Android Studio</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/database-project.jpg" alt="Database Project">
+                        <div class="project-overlay">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Database Programming Project</h3>
+                        <span class="project-year">2023 | Academic Project</span>
+                        <p class="project-description">
+                            Designed and implemented a comprehensive database system with advanced SQL queries, 
+                            stored procedures, and data normalization. Achieved distinction with 90% grade.
+                        </p>
+                        <div class="project-tags">
+                            <span>SQL</span>
+                            <span>Database Design</span>
+                            <span>Data Modeling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
@@ -292,7 +404,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Mpho Ecan Mokumo. All rights reserved.</p>
+                <p>&copy; 2025 Mpho Ecan Mokumo. All rights reserved.</p>
                 <div class="footer-social">
                     <a href="https://www.facebook.com/profile.php?id=61576574324501" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.linkedin.com/in/mpho-ecan-3941b0362" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -401,7 +513,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.service-card, .info-card, .skill-item, .about-photo, .about-text').forEach(el => {
+        document.querySelectorAll('.service-card, .info-card, .skill-item, .about-photo, .about-text, .project-card').forEach(el => {
             observer.observe(el);
         });
     </script>
